@@ -90425,7 +90425,7 @@ arh(a){var s=0,r=A.v(t.BJ),q,p=2,o=[],n=this,m,l,k,j,i,h,g,f,e,d,c
 var $async$l0=A.q(function(b,a0){if(b===1){o.push(a0)
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.y(n.a.CD("http://202.10.42.100:8081/login",a.cw(),t.z),$async$l0)
+return A.y(n.a.CD("https://bincang-visual.cloud/node/login",a.cw(),t.z),$async$l0)
 case 7:m=a0
 k=J.b2(m.a,"data")
 j=J.ar(k)
@@ -90465,7 +90465,7 @@ i=A.ac(["email",b.a,"password",b.b,"fullname",b.c,"profile",b.d],t.N,j)
 h=new A.B3(A.b([],t.Iq),A.b([],t.cS))
 h.a9Y(i,B.jL)
 s=7
-return A.y(n.a.CD("http://202.10.42.100:8081/register",h,j),$async$lc)
+return A.y(n.a.CD("https://bincang-visual.cloud/node/register",h,j),$async$lc)
 case 7:m=d
 j=m.a
 q=new A.cv(j,t.aD)
@@ -100398,8 +100398,8 @@ $.aVz=A.b([35,30,20,25,30,35,30,25,25],t.n)
 $.jv=function(){var s=t.n
 return A.b([A.b([0.41233895,0.35762064,0.18051042],s),A.b([0.2126,0.7152,0.0722],s),A.b([0.01932141,0.11916382,0.95034478],s)],t.zg)}()
 $.uu=A.b([95.047,100,108.883],t.n)
-$.a1N="http://202.10.42.100:8081/api"
-$.b2d="http://202.10.42.100:8081/refresh-token"
+$.a1N="https://bincang-visual.cloud/node/api"
+$.b2d="https://bincang-visual.cloud/node/refresh-token"
 $.aLj=null
 $.azq=null
 $.alz=null
